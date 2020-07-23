@@ -456,7 +456,7 @@ body {
   height: 55px;
   border-radius: 50%;
   position: relative;
-  top: -13px;
+  top: -24px;
   left: -18px;
 }
 
@@ -466,10 +466,9 @@ body {
   height: 55px;
   border-radius: 50%;
   position: relative;
-  top: -69px;
+  top: -80px;
   left: 63px;
 }
-
 .circle-big-icons {
   position: relative;
   top: 32px;
