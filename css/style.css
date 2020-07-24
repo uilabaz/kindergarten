@@ -1,0 +1,1901 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white !important;
+  overflow-x: hidden;
+}
+
+/*
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}*/
+
+#topBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #92278f;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 10;
+}
+
+#topBtn:focus {
+  outline: none;
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+/**************NAV***************/
+
+/* Icon 1 */
+
+#buttoncolor:focus {
+  outline: 0px !important;
+}
+
+.animated-icon2 {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon2 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.animated-icon2 span {
+  background: #92278f;
+}
+
+.animated-icon2 span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+  top: 10px;
+}
+
+.animated-icon2 span:nth-child(4) {
+  top: 20px;
+}
+
+.animated-icon2.open span:nth-child(1) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+.animated-icon2.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.animated-icon2.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.animated-icon2.open span:nth-child(4) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+/********************************************NAVBAR*****************************************************/
+
+.actives {
+  color: #fe6500 !important;
+}
+
+.nav-link {
+  font-family: 'Roboto Slab', serif !important;
+  transition: 0.5s !important;
+  text-align: center !important;
+}
+
+.nav-link-color {
+  color: #92278f !important;
+}
+
+.nav-link:hover {
+  color: #fe6500 !important;
+  transition: 0.5s !important;
+}
+
+.nav-color {
+  background-color: #92278f !important;
+}
+
+.nav-contact {
+  color: white !important;
+  position: relative !important;
+  top: 10px !important;
+}
+
+.location-icon {
+  position: relative;
+  top: -2px;
+}
+
+.navbar-color {
+  background-color: white !important;
+}
+
+.nav-circle {
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  background-color: white;
+  position: relative;
+  top: 15px;
+  translate: 0.8s !important;
+}
+
+.fb-icons {
+  position: relative;
+  left: 11px !important;
+  top: 2px;
+}
+
+.twitter-icons {
+  position: relative;
+  left: 11px !important;
+  top: 2px;
+}
+
+.instagram-icons {
+  position: relative;
+  left: 9px !important;
+  top: 2px;
+}
+
+.pinterest-icons {
+  position: relative;
+  left: 11px !important;
+  top: 2px;
+}
+
+.skype-icons {
+  position: relative;
+  left: 8px !important;
+  top: 2px;
+}
+
+.nav-circle:hover {
+  background-color: #f58337 !important;
+  translate: 0.8s !important;
+}
+
+/*******************************************SECTION 1***********************************************/
+
+.jumbotron-fluid {
+  background-image: url(../img/wallpaperflare1.jpg);
+  background-size: cover !important;
+  padding-bottom: 220px !important;
+  padding-right: 0px !important;
+}
+
+.jumbotron-title1 {
+  font-size: 45px;
+  color: #92278f !important;
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.jumbotron-titles-div
+{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+
+.span2 {
+  color: #fe6500 !important;
+}
+
+.jumbotron-title2 {
+  font-size: 45px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #92DDE2 !important;
+  font-weight: 800;
+}
+
+.span3 {
+  color: #92278f !important;
+}
+
+.jumbotron-title-div {
+  position: relative;
+  top: 130px;
+}
+
+.btn1btn2 {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+
+.btn1 {
+  background-color: #92278f !important;
+  color: white !important;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.5s !important;
+}
+
+.btn1:hover {
+  border-color: #92278f !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: #92278f !important;
+  transition: 0.5s !important;
+}
+
+.btn2 {
+  background-color: #fe6500 !important;
+  color: white !important;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  border-color: #fe6500 !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: #fe6500 !important;
+  transition: 0.5s !important;
+}
+
+/*******************************************SECTION 2***********************************************/
+
+.section2 {
+  padding-bottom: 100px;
+}
+
+.puzzle-icon {
+  position: relative;
+  top: 19px !important;
+  left: -2px;
+}
+
+.camping-icon {
+  position: relative;
+  top: 19px !important;
+  left: ;
+}
+
+.painter-icon {
+  position: relative;
+  top: 19px !important;
+  left: 1px;
+}
+
+.card-red {
+  background-color: #fe6500 !important;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 0 !important;
+  position: relative;
+  top: 120px;
+  height: 240px !important;
+  margin-bottom: 70px !important;
+}
+
+.game-event-text {
+  font-size: 14px !important;
+  position: relative;
+  top: -60px;
+}
+
+.game-event-title {
+  position: relative;
+  top: -60px;
+}
+
+.circle-box-red {
+  position: relative;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: -55px;
+  background-color: #fe6500 !important;
+  transition: 0.5s;
+}
+
+.circle-box-red:hover {
+  background-color: #92278f !important;
+  transition: 0.5s;
+}
+
+.card-purple {
+  background-color: #92278f;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 0 !important;
+  position: relative;
+  top: 120px;
+  height: 240px !important;
+  background-color: #92278f !important;
+  margin-bottom: 70px !important;
+}
+
+.circle-box-purple {
+  position: relative;
+  background-color: #92278f;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: -55px;
+  transition: 0.5s;
+}
+
+.circle-box-purple:hover {
+  background-color: #07BCB6 !important;
+  transition: 0.5s;
+}
+
+.card-blue {
+  background-color: #07BCB6 !important;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 0 !important;
+  position: relative;
+  top: 120px;
+  height: 240px !important;
+}
+
+.circle-box-blue {
+  position: relative;
+  background-color: #07BCB6 !important;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: -55px;
+  transition: 0.5s;
+}
+
+.circle-box-blue:hover {
+  background-color: rgb(187, 187, 12) !important;
+  transition: 0.5s;
+}
+
+/*******************************************SECTION 3***********************************************/
+
+.section3 {
+  background-color: #FBFBFB;
+  padding-bottom: 150px;
+}
+
+.card-about {
+  border: 0px !important;
+}
+
+.card-title1 {
+  color: #07BCB6 !important;
+  font-weight: 700;
+}
+
+.card-title2 {
+  color: #92278f !important;
+  font-weight: 700;
+}
+
+.card-text1 {
+  color: #fe6500 !important;
+  font-weight: 700;
+}
+
+.card-text2 {
+  color: #989898 !important;
+  font-weight: 700;
+  position: relative;
+  top: -10px;
+}
+
+/*******************************************SECTION 4***********************************************/
+
+.section4 {
+  background-color: #FFFFFF;
+  padding-bottom: 250px;
+}
+
+.circle-big-purple {
+  position: relative;
+  background-color: #92278f;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle-small-left {
+  background-color: #92278f;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  top: -24px;
+  left: -18px;
+}
+
+.circle-small-right {
+  background-color: #92278f;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  top: -80px;
+  left: 63px;
+}
+
+.circle-big-icons {
+  position: relative;
+  top: 32px;
+  left: 25px;
+  z-index: 1;
+}
+
+.greatteacher-title {
+  color: #92278f;
+  font-weight: 700;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.greatteacher-title:hover {
+  color: #fe6500 !important;
+  transition: 0.8s;
+}
+
+.greatteacher-text {
+  color: #888787;
+  font-weight: 600;
+}
+
+.card-education {
+  background-color: white !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  border-radius: 0px !important;
+  border: 0px !important;
+  position: relative !important;
+  top: 100px !important;
+  padding-bottom: 20px !important;
+}
+
+/**circle-big-blue**/
+
+.circle-big-blue {
+  position: relative;
+  background-color: #07BCB6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle-blue-small-left {
+  background-color: #07BCB6;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  top: -13px;
+  left: -18px;
+}
+
+.circle-blue-small-right {
+  background-color: #07BCB6;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  top: -69px;
+  left: 63px;
+}
+
+.creativelesson-title {
+  color: #07BCB6;
+  font-weight: 700;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.creativelesson-title:hover {
+  color: #fe6500 !important;
+  transition: 0.8s;
+}
+
+.creativelesson-text {
+  color: #888787;
+  font-weight: 600;
+}
+
+/**circle-big-orange**/
+
+.circle-big-orange {
+  position: relative;
+  background-color: #fe6500 !important;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle-orange-small-left {
+  background-color: #fe6500;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  left: -18px;
+}
+
+.circle-orange-small-right {
+  background-color: #fe6500;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  top: -75px;
+  left: 63px;
+}
+
+.activelearning-title {
+  color: #fe6500;
+  font-weight: 700;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.activelearning-title:hover {
+  color: #92278f !important;
+  transition: 0.8s;
+}
+
+.activelearning-text {
+  color: #888787;
+  font-weight: 600;
+}
+
+/**circle-big-green**/
+
+.circle-big-green {
+  position: relative;
+  background-color: green !important;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle-green-small-left {
+  background-color: green;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  left: -18px;
+}
+
+.circle-green-small-right {
+  background-color: green;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  top: -75px;
+  left: 63px;
+}
+
+.bestenvironment-title {
+  color: green;
+  font-weight: 700;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.bestenvironment-title:hover {
+  color: #07BCB6 !important;
+  transition: 0.8s;
+}
+
+.bestenvironment-text {
+  color: #888787;
+  font-weight: 600;
+}
+
+/*******************************************SECTION 5***********************************************/
+
+.section5 {
+  background-image: url(../img/counter-bg2.jpg);
+  padding-bottom: 150px;
+}
+
+.counter-list-div {
+  position: relative;
+  top: 75px;
+}
+
+.counter-list {
+  border-color: white !important;
+  height: 120px !important;
+  transition: 0.5s !important;
+  cursor: pointer;
+}
+
+.counter-number {
+  font-weight: 600;
+  font-size: 45px;
+  color: white;
+}
+
+.counter-text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 10px;
+  color: white;
+}
+
+/*******************************************SECTION 6***********************************************/
+
+.section6 {
+  background-color: #FBFBFB;
+  padding-bottom: 300px;
+}
+
+.section-title {
+  color: #92278f;
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.sec-title {
+  position: relative;
+  top: 130px;
+}
+
+.per-year {
+  font-size: 15px;
+  position: relative;
+  top: -20px;
+}
+
+.mb-10 {
+  padding-bottom: 10px;
+}
+
+.sec-subtitle {
+  color: #757575;
+  font-family: 'Roboto Slab', serif;
+}
+
+.btn3 {
+  background-color: #92278f !important;
+  color: white !important;
+  border-radius: 0 !important;
+  cursor: pointer;
+  height: 40px !important;
+}
+
+.card-basic, .card-standerd {
+  border-radius: 0px !important;
+  font-family: 'Roboto Slab', serif;
+}
+
+.pricing-text {
+  color: #888787;
+}
+
+.card-header {
+  font-size: 26px;
+  height: 60px;
+  border-radius: 0px !important;
+}
+
+.basic-header {
+  background-color: #fe6500 !important;
+  color: white !important;
+}
+
+.standerd-header {
+  background-color: green !important;
+  color: white !important;
+}
+
+.card-premium {
+  background-color: #07BCB6 !important;
+  color: white !important;
+}
+
+.btn4 {
+  background-color: #07BCB6 !important;
+  color: white !important;
+  border-radius: 0 !important;
+  cursor: pointer;
+  height: 40px !important;
+}
+
+.btn5 {
+  background-color: #fe6500 !important;
+  color: white !important;
+  border-radius: 0 !important;
+  cursor: pointer;
+  height: 40px !important;
+}
+
+.cards-box {
+  position: relative !important;
+  top: 180px !important;
+}
+
+/*******************************************SECTION 7***********************************************/
+
+.section7 {
+  background-color: white;
+  padding-bottom: 230px;
+}
+
+.ouractivities-title {
+  color: #92278f;
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.ouractivities-text {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  color: #fe6500;
+  font-size: 20px;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.ouractivities-boxs {
+  position: relative !important;
+  top: 130px !important;
+}
+
+.ouractivities-cards {
+  border: 0px !important
+}
+
+.box1 {
+  background-color: #92278f;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px 25px 5px;
+  color: white;
+}
+
+.box2 {
+  background-color: #07BCB6;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px 25px 5px;
+  color: white;
+}
+
+.box3 {
+  background-color: #fe6500;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px 25px 5px;
+  color: white;
+}
+
+.box4 {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px 25px 5px;
+  color: white;
+}
+
+.box5 {
+  background-color: #E72A52;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px 25px 5px;
+  color: white;
+}
+
+.box6 {
+  background-color: rgb(204, 204, 4);
+  width: 100px;
+  height: 100px;
+  border-radius: 5px 25px 5px;
+  color: white;
+}
+
+.great-teacher-title {
+  color: #92278f;
+  font-family: 'Roboto Slab', serif !important;
+  font-weight: bold !important;
+}
+
+.busservice-title {
+  color: #07BCB6;
+  font-family: 'Roboto Slab', serif !important;
+  font-weight: bold !important;
+}
+
+.sportstraining-title {
+  color: #fe6500;
+  font-family: 'Roboto Slab', serif !important;
+  font-weight: bold !important;
+}
+
+.musictraining-title {
+  color: green;
+  font-family: 'Roboto Slab', serif !important;
+  font-weight: bold !important;
+}
+
+.outingservice-title {
+  color: #E72A52;
+  font-family: 'Roboto Slab', serif !important;
+  font-weight: bold !important;
+}
+
+.languagecourse-title {
+  color: rgb(204, 204, 4);
+  font-family: 'Roboto Slab', serif !important;
+  font-weight: bold !important;
+}
+
+.text-grey {
+  color: #888787;
+}
+
+.icon-teacher {
+  position: relative;
+  top: 20px;
+}
+
+.icon-bus {
+  position: relative;
+  top: 23px;
+}
+
+.icon-running {
+  position: relative;
+  top: 20px;
+}
+
+.icon-music {
+  position: relative;
+  top: 22px;
+}
+
+.icon-foot {
+  position: relative;
+  top: 23px;
+}
+
+.language-icon {
+  position: relative;
+  top: 23px;
+}
+
+/*******************************************SECTION 8***********************************************/
+
+.section8 {
+  background-color: #FBFBFB;
+  padding-bottom: 200px;
+}
+
+.card-footer-purple {
+  background-color: #92278f !important;
+  border-radius: 0px !important;
+  height: 60px !important;
+}
+
+.cards-our-classes {
+  border-radius: 0px !important;
+}
+
+.container-our-classes {
+  position: relative !important;
+  top: 140px !important;
+}
+
+.ourclasses-title {
+  color: #92278f;
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.ourclasses-text {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  color: #fe6500;
+  font-size: 20px;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.title1 {
+  color: #888787;
+}
+
+.title2 {
+  color: #92278f;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.title3 {
+  color: #92278f;
+}
+
+.badge-purple {
+  background-color: #92278f !important;
+}
+
+.badge-orange {
+  background-color: #fe6500 !important;
+}
+
+.badge-blue {
+  background-color: #07BCB6 !important;
+}
+
+.mt-2 {
+  position: relative !important;
+  top: 2px !important;
+}
+
+.title4 {
+  color: #fe6500;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.title5 {
+  color: #07BCB6;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.btn-purple {
+  text-transform: uppercase !important;
+  padding: 15px 40px;
+  position: relative;
+  background: #92278f;
+  color: #ffffff !important;
+  transition: all 0.3s ease 0s;
+  border-radius: 3px;
+  width: 200px;
+  cursor: pointer;
+  font-family: 'Roboto Slab', serif;
+}
+
+.btn-purple:hover {
+  background-color: #fe6500;
+  border-radius: 10px;
+}
+
+/*******************************************SECTION 9**********************************************/
+
+.section9 {
+  background-color: #FFFFFF;
+  padding-bottom: 250px
+}
+
+.ourgallery-title {
+  color: #92278f;
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.ourgallery-text {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  color: #fe6500;
+  font-size: 20px;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.gallery {
+  position: relative !important;
+  top: 120px !important;
+}
+
+.ourgallery-card {
+  border: none !important;
+  border-radius: none !important;
+}
+
+.ourgallery {
+  position: relative !important;
+  top: 120px !important;
+}
+
+/*******************************************SECTION 10**********************************************/
+
+.section10 {
+  background-color: #FBFBFB;
+  padding-bottom: 300px
+}
+
+.ourteachers-title {
+  color: #92278f;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.ourteachers-text {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  color: #fe6500;
+  font-size: 20px;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.teachers {
+  position: relative !important;
+  top: 120px !important;
+}
+
+.ourteachers {
+  position: relative !important;
+  top: 150px !important;
+}
+
+.teacher-title1 {
+  position: relative !important;
+  top: 5px !important;
+  color: #92278f !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.teacher-text1 {
+  position: relative !important;
+  top: 2px !important;
+  font-family: 'Poppins', sans-serif;
+  color: #92278f !important;
+  font-size: 14px !important;
+}
+
+.teacher-title2 {
+  position: relative !important;
+  top: 5px !important;
+  color: #fe6500 !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.teacher-text2 {
+  position: relative !important;
+  top: 2px !important;
+  font-family: 'Poppins', sans-serif;
+  color: #fe6500 !important;
+  font-size: 14px !important;
+}
+
+.teacher-title3 {
+  position: relative !important;
+  top: 5px !important;
+  color: #07BCB6 !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.teacher-text3 {
+  position: relative !important;
+  top: 2px !important;
+  font-family: 'Poppins', sans-serif;
+  color: #07BCB6 !important;
+  font-size: 14px !important;
+}
+
+.card-footer-purple {
+  background-color: #92278f !important;
+}
+
+.card-footer-orange {
+  background-color: #fe6500 !important;
+}
+
+.card-footer-blue {
+  background-color: #07BCB6 !important;
+}
+
+.card1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  transition: 0.8s;
+}
+
+.card1 {
+  position: relative !important;
+  top: 160px !important;
+  transition: 0.8s;
+  border-radius: 0px !important;
+}
+
+.t1, .t2, .t3 {
+  border-radius: 0px !important;
+}
+
+.social-colors {
+  color: white !important;
+  position: relative !important;
+  top: 10px !important;
+}
+
+.container-teachers {
+  position: relative !important;
+  top: 160px !important;
+}
+
+/*******************************************SECTION 11**********************************************/
+
+.section11 {
+  background-image: url(../img/team-bg2.jpg);
+  padding-bottom: 120px;
+}
+
+.writetous-title {
+  font-family: 'Roboto Slab', serif;
+}
+
+.writetous {
+  position: relative !important;
+  top: 70px !important;
+}
+
+.btn6 {
+  width: 150px !important;
+  height: 45px !important;
+  border: 0px !important;
+  cursor: pointer !important;
+  transition: 0.5s !important;
+}
+
+.btn6:hover {
+  background-color: tomato !important;
+  transition: 0.5s !important;
+}
+
+/*******************************************SECTION 12**********************************************/
+
+.section12 {
+  background-color: white;
+  padding-bottom: 350px;
+}
+
+.contactus-title {
+  color: #92278f;
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.contactus-text {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  color: #fe6500;
+  font-size: 20px;
+  position: relative !important;
+  top: -60px !important;
+}
+
+.contactus {
+  position: relative !important;
+  top: 150px !important;
+}
+
+.card-contact-purple {
+  background-color: #92278f !important;
+  position: relative !important;
+  top: 160px !important;
+}
+
+.card-contact-orange {
+  background-color: #FE6500 !important;
+  position: relative !important;
+  top: 160px !important;
+}
+
+.card-contact-blue {
+  background-color: #1EAEE3 !important;
+  position: relative !important;
+  top: 160px !important
+}
+
+.box-contact-purple {
+  width: 80px;
+  height: 70px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.contact-title, .contact-text {
+  font-family: 'Roboto Slab', serif;
+}
+
+.container-contact {
+  background-color: #ece7e744 !important;
+  position: relative !important;
+  top: 220px !important;
+  padding-bottom: 100px !important;
+}
+
+.contact-form {
+  position: relative !important;
+  top: 50px !important;
+}
+
+.btn8 {
+  background-color: #92278f !important;
+  color: white !important;
+  width: 200px !important;
+  cursor: pointer;
+  transition: 0.5s !important;
+}
+
+.btn8:hover {
+  background-color: #fe6500 !important;
+  transition: 0.5s !important;
+}
+
+/*******************************************FOOTER*******************************************/
+
+footer {
+  background-image: url(../img/footer-bg.jpg);
+  padding-bottom: 170px;
+  background-size: cover;
+}
+
+.location-map, .phone-footer, .mail-footer, .world-footer {
+  width: 18px !important;
+}
+
+.location-title, .mail-title, .number-title, .world-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  transition: 0.5s !important;
+}
+
+.footer-contacts:hover {
+  color: #fe6500 !important;
+  cursor: pointer !important;
+  transition: 0.5s !important;
+}
+
+.footer-logo {
+  width: 190px !important;
+}
+
+.cardfooter {
+  background-color: #92278f !important;
+  position: relative !important;
+  top: 80px !important;
+  border: 0px !important;
+  font-family: 'Roboto Slab', serif;
+}
+
+.cardfooter2 {
+  position: relative !important;
+  top: 135px !important;
+  border: 0px !important;
+}
+
+.arrow {
+  width: 10px !important;
+}
+
+.footer-title {
+  font-size: 15px !important;
+  transition: 0.5s !important;
+  cursor: pointer !important;
+}
+
+.footer-title:hover {
+  color: #fe6500 !important;
+  transition: 0.5s !important;
+  cursor: pointer !important;
+}
+
+input[type=text] {
+  border-radius: 0px !important;
+}
+
+.btn7 {
+  border-radius: 0px !important;
+  position: relative !important;
+  left: -1px !important;
+  cursor: pointer !important;
+  transition: 0.8s !important;
+  background-color: #92278f !important;
+  color: white !important;
+  padding: 15px !important;
+}
+
+.btn7:hover {
+  background-color: tomato !important;
+  transition: 0.8s !important;
+  border-color: tomato !important;
+  cursor: pointer !important;
+}
+
+.btn7:focus {
+  outline: none !important
+}
+
+/***social icons footer**/
+
+.circle-purple1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #92278f;
+  cursor: pointer !important;
+  transition: 0.5s !important;
+}
+
+.circle-footer {
+  position: relative !important;
+  top: 80px !important;
+  cursor: pointer !important;
+}
+
+.circle-purple1:hover {
+  background-color: #fe6500 !important;
+  transition: 0.5s !important;
+}
+
+.fa-heart {
+  color: #92278f !important;
+}
+
+.copyright {
+  position: relative !important;
+  top: 130px !important;
+}
+
+/***********************************************RESPONSİVE**************************************************/
+
+/*******************MOBİLE********************/
+
+@media only screen and (max-width:768px) {
+  #topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #92278f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 5;
+  }
+  .jumbotron-title1, .jumbotron-title2 {
+    font-size: 30px;
+  }
+  .jumbotron-fluid {
+    padding-bottom: 200px !important;
+  }
+  .jumbotron-title-div {
+    top: 110px;
+  }
+  .btn1 {
+    height: 50px;
+    font-size: 12px !important;
+  }
+  /*********SECTION 2**********/
+  .section2 {
+    padding-bottom: 100px;
+  }
+  /*SECTION 3*/
+  .section3 {
+    background-color: #FBFBFB;
+    padding-bottom: 230px;
+  }
+  .card-title1 {
+    color: #07BCB6 !important;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .card-title2 {
+    color: #92278f !important;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .card-text1 {
+    color: #fe6500 !important;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .card-text2 {
+    color: #989898 !important;
+    font-weight: 700;
+    position: relative;
+    top: -10px;
+    font-size: 14px;
+  }
+  /**section 6*/
+  .section6 {
+    padding-bottom: 250px;
+  }
+  .section-title {
+    color: #92278f;
+    font-family: 'Roboto Slab', serif;
+    font-size: 33px;
+    font-weight: 700;
+  }
+  .sec-title {
+    position: relative;
+    top: 80px;
+  }
+  /***section 7***/
+  .section7 {
+    background-color: white;
+    padding-bottom: 200px;
+  }
+  .ouractivities-title {
+    font-size: 33px;
+    position: relative !important;
+    top: -10px !important;
+  }
+  .ouractivities-text {
+    font-size: 17px;
+    position: relative !important;
+    top: -10px !important;
+  }
+  .ouractivities-boxs {
+    position: relative !important;
+    top: 100px !important;
+  }
+  .box1 {
+    background-color: #92278f;
+    width: 90px;
+    height: 90px;
+    border-radius: 5px 25px 5px;
+    color: white;
+  }
+  .box2 {
+    background-color: #07BCB6;
+    width: 90px;
+    height: 90px;
+    border-radius: 5px 25px 5px;
+    color: white;
+  }
+  .box3 {
+    background-color: #fe6500;
+    width: 90px;
+    height: 90px;
+    border-radius: 5px 25px 5px;
+    color: white;
+  }
+  .box4 {
+    background-color: green;
+    width: 90px;
+    height: 90px;
+    border-radius: 5px 25px 5px;
+    color: white;
+  }
+  .box5 {
+    background-color: #E72A52;
+    width: 90px;
+    height: 90px;
+    border-radius: 5px 25px 5px;
+    color: white;
+  }
+  .box6 {
+    background-color: rgb(204, 204, 4);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px 25px 5px;
+    color: white;
+  }
+  .great-teacher-title, .busservice-title, .sportstraining-title, .musictraining-title, .outingservice-title, .languagecourse-title {
+    font-size: 23px;
+  }
+  .text-grey {
+    font-size: 15px;
+  }
+  .icon-teacher {
+    position: relative !important;
+    top: 30px;
+    left: -2px;
+    width: 40px;
+  }
+  .icon-bus {
+    position: relative !important;
+    top: 25px;
+    left: -1px;
+    width: 40px;
+  }
+  .icon-running {
+    position: relative !important;
+    top: 23px;
+    left: -1px;
+    width: 40px;
+  }
+  .icon-music {
+    position: relative !important;
+    top: 25px;
+    left: -1px;
+    width: 40px;
+  }
+  .btn-purple {
+    text-transform: uppercase !important;
+    position: relative;
+    width: 150px;
+    font-size: 12.5px !important;
+    left: -5px !important;
+  }
+  /**Section 8**/
+  .card-footer-purple {
+    background-color: #92278f !important;
+    border-radius: 0px !important;
+    height: 60px !important;
+  }
+  .container-our-classes {
+    position: relative !important;
+    top: 60px !important;
+  }
+  .ourclasses-title {
+    font-size: 33px;
+    position: relative !important;
+    top: -40px !important;
+  }
+  .ourclasses-text {
+    font-size: 18px;
+    position: relative !important;
+    top: -50px !important;
+  }
+  .title1 {
+    color: #888787;
+  }
+  .title2 {
+    color: #92278f;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .title3 {
+    color: #92278f;
+    font-size: 20px;
+  }
+  .badge-purple {
+    background-color: #92278f !important;
+    padding-bottom: 0px !important;
+    width: 70px !important;
+  }
+  .badge-title {
+    font-size: 9px !important;
+  }
+  .badges {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .badge-orange {
+    background-color: #fe6500 !important;
+    width: 70px !important;
+    padding-left: 10px !important;
+  }
+  .badge-blue {
+    background-color: #07BCB6 !important;
+    width: 70px !important;
+  }
+  .mt-2 {
+    position: relative !important;
+    top: 2px !important;
+  }
+  .title4 {
+    color: #fe6500;
+    font-size: 20px;
+  }
+  .title5 {
+    color: #07BCB6;
+    font-size: 20px;
+  }
+  .btn-purple {
+    text-transform: uppercase !important;
+    padding: 15px 40px;
+    position: relative;
+    background: #92278f;
+    color: #ffffff !important;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+    width: 200px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+  }
+  .btn-purple:hover {
+    background-color: #fe6500;
+    border-radius: 10px;
+  }
+  /***********SECTION9***********/
+  .section9 {
+    background-color: #FFFFFF;
+    padding-bottom: 200px
+  }
+  .ourgallery-title {
+    color: #92278f;
+    font-family: 'Roboto Slab', serif;
+    font-size: 33px;
+    top: -60px !important;
+  }
+  .ourgallery-text {
+    font-size: 19px;
+    position: relative !important;
+    top: -60px !important;
+  }
+  .gallery {
+    position: relative !important;
+    top: 100px !important;
+  }
+  /***********SECTION 10***********/
+  .section10 {
+    background-color: #FBFBFB;
+    padding-bottom: 250px
+  }
+  .ourteachers-title {
+    color: #92278f;
+    font-size: 33px;
+    font-weight: 700;
+    position: relative !important;
+    top: -50px !important;
+  }
+  .ourteachers-text {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    color: #fe6500;
+    font-size: 19px;
+    position: relative !important;
+    top: -60px !important;
+  }
+  .ourteachers {
+    position: relative !important;
+    top: 140px !important;
+  }
+  .teacher-title1, .teacher-title2, .teacher-title3 {
+    font-size: 20px !important;
+  }
+  .teacher-text1, .teacher-text2, .teacher-text3 {
+    font-size: 12px !important;
+  }
+  /***********SECTION 11***************/
+  .writetous-title {
+    font-size: 33px;
+  }
+  .writetous {
+    position: relative !important;
+    top: 70px !important;
+  }
+  .btn6 {
+    width: 120px !important;
+    height: 45px !important;
+    border: 0px !important;
+    cursor: pointer !important;
+    transition: 0.5s !important;
+    font-size: 14px !important;
+  }
+  .btn6:hover {
+    background-color: tomato !important;
+    transition: 0.5s !important;
+  }
+  /***********SECTION 12***************/
+  .contactus-title {
+    color: #92278f;
+    font-size: 33px;
+  }
+  .contactus-text {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    color: #fe6500;
+    font-size: 18px;
+    position: relative !important;
+    top: -60px !important;
+  }
+  .contactus {
+    position: relative !important;
+    top: 150px !important;
+  }
+  .card-contact-purple {
+    background-color: #92278f !important;
+    position: relative !important;
+    top: 160px !important;
+  }
+  .card-contact-orange {
+    background-color: #FE6500 !important;
+    position: relative !important;
+    top: 160px !important;
+  }
+  .card-contact-blue {
+    background-color: #1EAEE3 !important;
+    position: relative !important;
+    top: 160px !important
+  }
+  .box-contact-purple {
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    border-radius: 7px;
+  }
+  .contact-title {
+    font-family: 'Roboto Slab', serif;
+  }
+  .contact-text {
+    font-size: 16px !important;
+  }
+  .btn8 {
+    background-color: #92278f !important;
+    color: white !important;
+    width: 120px !important;
+    cursor: pointer;
+    transition: 0.5s !important;
+    font-size: 15px !important;
+  }
+  .btn8:hover {
+    background-color: #fe6500 !important;
+    transition: 0.5s !important;
+  }
+  /***********************FOOTER**********************/
+  .location-map, .phone-footer, .mail-footer, .world-footer {
+    width: 18px !important;
+  }
+  .location-title, .mail-title, .number-title, .world-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    transition: 0.5s !important;
+    text-align: center;
+  }
+  .footer-logo {
+    width: 160px !important;
+  }
+  .footer-logo-center {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+  }
+  .icons-footer {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+  }
+  .cardfooter {
+    background-color: #92278f !important;
+    position: relative !important;
+    top: 110px !important;
+    border: 0px !important;
+    font-family: 'Roboto Slab', serif;
+    text-align: center !important;
+  }
+  .cardfooter2 {
+    position: relative !important;
+    top: 80px !important;
+    border: 0px !important;
+  }
+  .arrow {
+    width: 10px !important;
+  }
+  .navbar-footer {
+    position: relative !important;
+    top: 30px !important;
+  }
+  input[type=text] {
+    border-radius: 0px !important;
+  }
+  .btn7 {
+    border-radius: 0px !important;
+    position: relative !important;
+    left: -1px !important;
+    cursor: pointer !important;
+    transition: 0.8s !important;
+    background-color: #92278f !important;
+    color: white !important;
+    padding: 15px !important;
+  }
+  .btn7:hover {
+    background-color: tomato !important;
+    transition: 0.8s !important;
+    border-color: tomato !important;
+  }
+  .btn7:focus {
+    outline: none !important!
+  }
+  /***social icons footer**/
+  .circle-purple1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #92278f;
+    cursor: pointer !important;
+    transition: 0.5s !important;
+  }
+  .circle-footer {
+    position: relative !important;
+    top: 120px !important;
+    cursor: pointer !important;
+  }
+  .circle-purple1:hover {
+    background-color: #fe6500 !important;
+    transition: 0.5s !important;
+  }
+  .fa-heart {
+    color: #92278f !important;
+  }
+  .copyright {
+    position: relative !important;
+    top: 140px !important;
+  }
+}
